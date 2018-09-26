@@ -7,9 +7,8 @@ class Solution {
     static long aVeryBigSum(int n, long[] ar) {
         long result = 0;
         for(int i=0;i<n;i++)
-        {
             result += ar[i];
-        }
+            
         return result;
     }
 
